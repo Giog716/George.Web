@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Numele Tău] - Influencer</title>
+    <!-- Legătura către fișierul CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">[Numele Tău]</div>
+            <ul>
+                <li><a href="#hero">Acasă</a></li>
+                <li><a href="#despre">Despre Mine</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#portofoliu">Portofoliu</a></li>
+                <li><a href="#testimoniale">Testimoniale</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Bun venit pe pagina mea!</h1>
+        <p>Sunt [Numele Tău], influencer și creator de conținut.</p>
+        <a href="#contact" class="button">Contactează-mă</a>
+    </section>
+
+    <!-- Despre Mine Section -->
+    <section id="despre">
+        <h2>Despre Mine</h2>
+        <p>Sunt pasionat de crearea de conținut care inspiră și ajută oamenii să-și atingă obiectivele.</p>
+    </section>
+
+    <!-- Servicii Section -->
+    <section id="servicii">
+        <h2>Servicii</h2>
+        <div class="serviciu">
+            <h3>Marketing pe Social Media</h3>
+            <p>Ofer servicii de marketing pe social media pentru a ajuta brandurile să crească online.</p>
+        </div>
+        <div class="serviciu">
+            <h3>Parteneriate și Colaborări</h3>
+            <p>Îmi place să colaborez cu branduri care împărtășesc valorile mele.</p>
+        </div>
+    </section>
+
+    <!-- Portofoliu Section -->
+    <section id="portofoliu">
+        <h2>Portofoliu</h2>
+        <p>Aici sunt câteva dintre proiectele mele recente.</p>
+        <!-- Aici poți adăuga imagini sau link-uri către proiectele tale -->
+    </section>
+
+    <!-- Testimoniale Section -->
+    <section id="testimoniale">
+        <h2>Testimoniale</h2>
+        <p>Vezi ce spun clienții mei despre colaborările noastre.</p>
+        <!-- Aici poți adăuga testimoniale de la clienți -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="contact-form.php" method="POST">
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Numele Tău]. Toate drepturile rezervate.</p>
+    </footer>
+
+    <!-- Inclusiv scriptul JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
